@@ -16,7 +16,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-
 /*  ============navbar menu=================== */
 header {
   background-color: #fff;
@@ -178,7 +177,6 @@ main .location-main {
   text-align: center;
 }
 
-
 /* ================ summit ====================== */
 .subs {
   width: 100%;
@@ -330,7 +328,6 @@ main .location-main {
   font-weight: 900;
 }
 
-
 /* ======================mobile view ===================== */
 @media (max-width: 768px) {
   /*    ========================   navbar menu=========== */
@@ -461,7 +458,6 @@ main .location-main {
   .icon-title {
     display: block;
   }
-
 
   /* ================= about page======================= */
   main .about-description {

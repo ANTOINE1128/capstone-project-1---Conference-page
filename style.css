@@ -16,7 +16,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-
 /*  ============navbar menu=================== */
 header {
   background-color: #fff;
@@ -178,7 +177,6 @@ main .location-main {
   align-items: center;
   text-align: center;
 }
-
 
 /* ================program page====================== */
 .program {
@@ -402,10 +400,9 @@ h4 .sponsor-container {
   font-weight: 900;
 }
 
-
 /* ======================mobile view ===================== */
 @media (max-width: 768px) {
-  /*    ========================   navbar menu=========== */
+  /*  ========================navbar menu=========== */
 
   .navbar {
     background: url('image/mob-bg.png');
