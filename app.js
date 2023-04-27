@@ -22,41 +22,41 @@ function closeMenu() {
 
 // Select all the nav links and add a click event to each one that triggers the closeMenu function
 navLink.forEach((n) => n.addEventListener('click', closeMenu));
-/*=========================speakers=============================*/
+/*= ========================speakers============================= */
 const speakers = document.querySelector('.speakers-details');
 const speakersArray = [
   {
-    name:'ANDERAS S.<br>CONSTANTINIDES',
-    title:'Head of Messaging<br>& Marketing',
-    image:'image/speaker2.jpg',
-    about:'morethan160',
+    name: 'ANDERAS S.<br>CONSTANTINIDES',
+    title: 'Head of Messaging<br>& Marketing',
+    image: 'image/speaker2.jpg',
+    about: 'morethan160',
 
   },
   {
-    name:'MARIA<br>PELIVANIDE',
-    title:'Director',
-    image:'image/Maria-speaker1.jpeg',
-    about:'morethan160',
+    name: 'MARIA<br>PELIVANIDE',
+    title: 'Director',
+    image: 'image/Maria-speaker1.jpeg',
+    about: 'morethan160',
 
   },
   {
-    name:'FABRIZIO<br>SALANITRI',
-    title:'CEO',
-    image:'image/speaker3.jpg',
-    about:'HORSIEN',
+    name: 'FABRIZIO<br>SALANITRI',
+    title: 'CEO',
+    image: 'image/speaker3.jpg',
+    about: 'HORSIEN',
 
   },
   {
-    name:'SCARLETT<br>WOODFORD',
-    title:'Principal analyst',
-    image:'image/speaker4.jpg',
-    about:'Juniper Research',
+    name: 'SCARLETT<br>WOODFORD',
+    title: 'Principal analyst',
+    image: 'image/speaker4.jpg',
+    about: 'Juniper Research',
 
   },
 ];
 // ========FUNCTION TO CREATE THE SPEAKERS DETAILS=======
 function speakerCreate() {
-  for (let i = 0; i < speakersArray.length; i++) {
+  for (let i = 0; i < speakersArray.length; i += 1) {
     const speaker = speakersArray[i];
     const speakerHtml = `
       <div class="speakers-info">
