@@ -217,7 +217,41 @@ main .location-main{
   opacity:0.9;
   margin-top: 6rem;
 } 
+.forum{
+  
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  
+  width:100%;
+  border: 2px solid red;
+  height: 50vh;
+}
+.forum1{
+  background: url(image/forum-img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ec5242;
+  margin-bottom: 2rem;
+  width: 30%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+}
+.forum2{
+  background: url(image/forum-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ec5242;
+  margin-bottom: 2rem;
+  width: 30%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
 /* ===================speakers-section================================== */
 
 /* ==============================sponsors=============== */
