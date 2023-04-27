@@ -2,7 +2,7 @@
 
 /* basic style */
 * {
-    margin: 0;
+    margin: 0  ;
     padding: 0;
     outline: 0;
     border: 0;
@@ -180,6 +180,7 @@ background-repeat: repeat;
 background-color: #272a33;
 width: 100%;
 height: auto;
+
 }
 .program h2 {
   color: #fff;
@@ -193,6 +194,7 @@ height: auto;
 }
 .program-items{
   padding-bottom: 2rem;
+  margin: 0 2rem;
 }
 .program-icon-title {
 display: grid;
@@ -229,7 +231,7 @@ color: #fff;
   .joinUs{
     background-color: #ec5242;
     width: 60%;
-    margin: 0 auto;
+    margin: 2rem auto;
     padding: 1rem 3rem 1rem;
     text-align: center;
     font-weight: 700;
@@ -333,6 +335,7 @@ justify-content: center;
   color: #fff;
   text-align: center;
   padding: 3rem 0 1.1rem;
+  
 }
 .sponsor-container hr{
   border-bottom: 2px solid #f65112;
@@ -345,7 +348,7 @@ justify-content: center;
   width:100%;
   align-items: center ;
   justify-content: center;
-gap: 4rem;
+  gap: 2rem;
   
 }
 .sponsor img{
@@ -462,8 +465,21 @@ gap: 4rem;
     margin-left: 2rem;
   }
 /* ===========program================== */
+.program .icon-title{
+  font-size: 1rem;
+  
+}
+.program-icon-title h3{
+  font-size: 1.3rem;
+}
+.program-icon-title i{
+  font-size: 1.3rem;
+}
 .seemore{
   display: none;
+}
+.joinUs{
+padding: 1rem 1rem 1rem;
 }
 .sponsors{
   display: none;

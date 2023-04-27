@@ -2,7 +2,7 @@
 
 /* basic style */
 * {
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     outline: 0;
     border: 0;
@@ -217,26 +217,28 @@ main .location-main{
   opacity:0.9;
   margin-top: 6rem;
 } 
-.forum{
+#forum{
   
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  
-  width:100%;
-  border: 2px solid red;
-  height: 50vh;
+  grid-template-columns: 1fr 1fr;
+  width:70%;
+  height: 40vh;
+  gap: 4rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  margin-left: 15%;
+ color: #fff;
 }
 .forum1{
   background: url(image/forum-img2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ec5242;
-  margin-bottom: 2rem;
-  width: 30%;
-  height: 50vh;
+  background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
 }
 .forum2{
@@ -244,13 +246,14 @@ main .location-main{
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ec5242;
-  margin-bottom: 2rem;
-  width: 30%;
-  height: 50vh;
+  background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  align-items: center;
+}
+#forum .forum{
+color: #fff;
 }
 /* ===================speakers-section================================== */
 
@@ -280,7 +283,7 @@ justify-content: center;
   width:100%;
   align-items: center ;
   justify-content: center;
-gap: 4rem;
+  gap: 2rem;
   
 }
 .sponsor img{
@@ -397,8 +400,28 @@ gap: 4rem;
     margin-left: 2rem;
   }
 /* ===========summit================== */
+#forum{
+  
+  display: grid;
+  grid-template-columns:1fr   ; 
+ height: 80vh;
 
+ 
+}
+.forum1{
+ width:100%;
 
+}
+.forum2{
+width: 100%;
+}
+.sponsor-container h4{
+  font-size: 1.2rem;
+
+}
+.sponsor img{
+  width: 90%
+}
   }
                                        /* end of mobile version */
 /* desktop */
@@ -419,5 +442,13 @@ main {
 main .about-description{
   background-color: white;
   opacity: 0.7;
+}
+.sponsors{
+  display: none;
+}
+.footer-container{
+background-color: #272a33;
+color: #fff;
+
 }
 }
