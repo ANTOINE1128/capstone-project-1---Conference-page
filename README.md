@@ -73,7 +73,7 @@ git clone https://github.com/ANTOINE1128/capstone
  **Antoine Makdessy**
 
 - GitHub: [@ANTOINE1128](https://github.com/ANTOINE1128)
-
+- Original design idea by Cindy Shin in Behance.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ add more pages ] 
