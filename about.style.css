@@ -493,9 +493,11 @@ main .location-main {
     opacity: 0.7;
     width: 80%;
   }
-.location-main{
-  margin-top: 7%;
-}
+
+  .location-main {
+    margin-top: 7%;
+  }
+
   .sponsors {
     display: none;
   }
