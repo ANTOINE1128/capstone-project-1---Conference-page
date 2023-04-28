@@ -67,7 +67,6 @@ nav .top-nav {
   justify-content: space-between;
   align-items: center;
   gap: 5px;
-
 }
 
 .nav-branding img {
@@ -219,9 +218,11 @@ main .location-main {
 
   /* justify-content: center; */
 }
-.program-icon-title:hover{
-border: 2px solid lightgray;
+
+.program-icon-title:hover {
+  border: 2px solid lightgray;
 }
+
 .icon-title {
   display: flex;
   flex-direction: row;
@@ -303,9 +304,11 @@ body > section.speakers > div > div > div:nth-child(1) > div > h4 {
   width: 100%;
   padding-bottom: 2rem;
 }
-.details{
-  margin-left: 50px  ;
+
+.details {
+  margin-left: 50px;
 }
+
 .speakers-info {
   display: flex;
   gap: 1rem;
@@ -313,11 +316,12 @@ body > section.speakers > div > div > div:nth-child(1) > div > h4 {
   position: relative;
   flex-direction: row;
 }
-.chess-business{
+
+.chess-business {
   position: relative;
-  
-  width : 190px;
+  width: 190px;
 }
+
 .speakers-info .business {
   width: 120px;
   height: 120px;
@@ -325,13 +329,13 @@ body > section.speakers > div > div > div:nth-child(1) > div > h4 {
   z-index: 10;
   left: 20px;
   top: 20px;
-
 }
-.chess{
+
+.chess {
   width: 100px;
   height: 100px;
- 
 }
+
 h4 .speakers-info {
   color: #272a33;
   font-size: 1.5rem;
@@ -370,7 +374,7 @@ h4 .speakers-info {
   justify-content: center;
 }
 
-.sponsor-container h4 {
+h4 .sponsor-container {
   font-size: 2rem;
   font-weight: 400;
   color: #a19999;
@@ -400,8 +404,6 @@ h4 .speakers-info {
 
 /* ==============================footer section========================= */
 
-
-
 .footer-container {
   color: #272a33;
   width: 100%;
@@ -429,7 +431,6 @@ h4 .speakers-info {
 
   .navbar {
     background: url('image/mob-bg.png');
-
   }
 
   .top-nav {
@@ -478,7 +479,7 @@ h4 .speakers-info {
   }
 
   .nav-branding {
-   display: none;
+    display: none;
   }
 
   /* ==============main-page================= */
@@ -535,6 +536,7 @@ h4 .speakers-info {
   .joinUs {
     padding: 1rem 1rem 1rem;
   }
+
   h4 .speakers-info {
     color: #272a33;
     font-size: 0.4rem;
@@ -544,9 +546,9 @@ h4 .speakers-info {
     justify-content: center;
   }
 
-.speakers-details{
-  padding: 0 2rem;
-}
+  .speakers-details {
+    padding: 0 2rem;
+  }
 
   .sponsors {
     display: none;
@@ -559,7 +561,6 @@ h4 .speakers-info {
   #footer {
     display: none;
   }
-
 }
 
 /* end of mobile version */

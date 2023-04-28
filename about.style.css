@@ -115,8 +115,6 @@ main {
   height: 90vh;
 }
 
-
-
 main .title-main {
   color: #ec5242;
   font-size: 2rem;
@@ -137,7 +135,7 @@ main .title-main {
       #f65112,
       #ec5242
     );
-    text-align: center;
+  text-align: center;
 }
 
 main .description-main {
@@ -176,11 +174,12 @@ main .location-main {
   align-items: center;
   text-align: center;
 }
-.email{
+
+.email {
   justify-content: center;
   align-items: center;
-  
 }
+
 /* ================ summit ====================== */
 .subs {
   width: 100%;
@@ -308,6 +307,7 @@ main .location-main {
 .sponsor img {
   width: 100px;
 }
+
 /* ==============================footer section========================= */
 
 .footer-container {
@@ -386,7 +386,7 @@ main .location-main {
   }
 
   .nav-branding {
-   display: none;
+    display: none;
   }
 
   /* ==============main-page================= */
@@ -403,12 +403,12 @@ main .location-main {
     margin-left: 2rem;
   }
 
-
   .main-page h1 {
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
   }
+
   main .description-main {
     background-color: lightgrey;
     font-weight: 700;
@@ -419,8 +419,8 @@ main .location-main {
     margin-top: 8%;
     margin-right: 4%;
     padding: 1rem 1rem 1rem 1rem;
-    
   }
+
   .main-page time {
     font-size: 1.6rem;
     font-weight: 700;
@@ -430,7 +430,7 @@ main .location-main {
   .main-page .location-main {
     font-size: 1rem;
     margin-left: 2rem;
-    margin-top: 2rem
+    margin-top: 2rem;
   }
 
   /* ===========summit================== */
@@ -447,9 +447,11 @@ main .location-main {
   .forum2 {
     width: 100%;
   }
-.sponsor-container{
-  width:90%
-}
+
+  .sponsor-container {
+    width: 90%;
+  }
+
   .sponsor-container h4 {
     font-size: 1.2rem;
   }
@@ -476,19 +478,18 @@ main .location-main {
 
   /* ================= about page======================= */
   main .about-description {
-  background-color: lightgrey;
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-  line-height: 1.7;
-  border: 3px solid #fff;
-  color: #272a31;
-  height: auto;
-  margin-top: 8%;
-  padding: 3rem 8rem 5rem 12rem;
-  opacity: 0.8;
-  background-color: white;
-  opacity: 0.7;
+    background-color: lightgrey;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    border: 3px solid #fff;
+    color: #272a31;
+    height: auto;
+    margin-top: 8%;
+    padding: 3rem 8rem 5rem 12rem;
+    opacity: 0.8;
+    opacity: 0.7;
   }
 
   .sponsors {
