@@ -49,7 +49,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 🚀 Live Demo(#live-demo)
-- [video demo link](https://www.loom.com/share/feaa9f0e68d24908a35f1fbcdf6a1c26)
+- [video demo link](https://www.loom.com/share/33f0f20c51c149a7a45a141b0bb272fb)
 - [project demo link](https://antoine1128.github.io/capstone-project-1---Conference-page/)
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -84,7 +84,7 @@ git clone https://github.com/ANTOINE1128/capstone
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/ANTOINE1128/portfolio-setup/issues).
+Feel free to check the [issues page](https://antoine1128.github.io/capstone-project-1---Conference-page/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
