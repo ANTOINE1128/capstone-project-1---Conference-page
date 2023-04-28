@@ -45,11 +45,12 @@ nav .top-nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 3rem;
 }
 
 .nav-container a {
   color: #fff;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 
 /* =============end-about-nav====== */
@@ -58,26 +59,28 @@ nav .top-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 36px;
 }
 
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 5px;
 }
 
 .nav-branding img {
   display: block;
-  width: 120px;
-  height: 48px;
+  width: 140px;
+  height: 50px;
   background-color: lightslategray;
+  margin-left: 24%;
 }
 
 .nav-link {
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: 0.7s ease;
+  margin-right: 2rem;
 }
 
 .nav-link:hover {
@@ -112,18 +115,14 @@ main {
   height: 90vh;
 }
 
-main .greet-main {
-  color: #ec5242;
-  font-size: 1.7rem;
-  margin-bottom: 0.5rem;
-  margin-top: 1rem;
-}
+
 
 main .title-main {
   color: #ec5242;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 3rem;
+  margin-top: 3rem;
   font-family: sans-serif;
   background-clip: initial;
   -webkit-background-clip: text;
@@ -138,6 +137,7 @@ main .title-main {
       #f65112,
       #ec5242
     );
+    text-align: center;
 }
 
 main .description-main {
@@ -148,7 +148,7 @@ main .description-main {
   line-height: 1.7;
   border: 3px solid #fff;
   color: #272a31;
-  padding: 1.5rem;
+  margin-top: 6%;
   opacity: 0.8;
 }
 
@@ -172,11 +172,15 @@ main .location-main {
 /* ==main about=== */
 .about-mainpage {
   display: grid;
-  grid-template-rows: repeat(4, 25%);
+  grid-template-rows: repeat(4, 23%);
   align-items: center;
   text-align: center;
 }
-
+.email{
+  justify-content: center;
+  align-items: center;
+  
+}
 /* ================ summit ====================== */
 .subs {
   width: 100%;
@@ -200,8 +204,8 @@ main .location-main {
 .subs hr {
   border-bottom: 2px solid #ec5242;
   margin: 0 auto;
-  margin-bottom: 1rem;
-  width: 10%;
+  margin-bottom: 4rem;
+  width: 3%;
 }
 
 .subs p {
@@ -279,7 +283,7 @@ main .location-main {
 }
 
 .sponsor-container h4 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   color: #fff;
   text-align: center;
@@ -288,7 +292,7 @@ main .location-main {
 
 .sponsor-container hr {
   border-bottom: 2px solid #f65112;
-  width: 15%;
+  width: 5%;
   margin: 0 auto 2rem;
 }
 
@@ -304,28 +308,28 @@ main .location-main {
 .sponsor img {
   width: 100px;
 }
-
 /* ==============================footer section========================= */
 
 .footer-container {
-  color: #272a33;
+  color: #fff;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(58, 52, 52);
   display: flex;
-  gap: 5rem;
-  padding: 2rem 2rem 2rem 2rem;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
 }
 
 .footer-container h5 {
-  width: 45%;
-  font-size: 1.2rem;
-  font-weight: 900;
+  width: 25%;
+  font-size: 1rem;
+  font-weight: 800;
 }
 
 .footer-container p {
-  width: 45%;
-  font-size: 1.2rem;
-  font-weight: 900;
+  width: 30%;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 /* ======================mobile view ===================== */
@@ -382,8 +386,7 @@ main .location-main {
   }
 
   .nav-branding {
-    position: absolute;
-    left: 40%;
+   display: none;
   }
 
   /* ==============main-page================= */
@@ -400,15 +403,24 @@ main .location-main {
     margin-left: 2rem;
   }
 
-  .main-page .greet-main {
-    margin-left: 2rem;
-  }
 
   .main-page h1 {
-    font-size: 2rem;
-    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
   }
-
+  main .description-main {
+    background-color: lightgrey;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    height: auto;
+    margin-top: 8%;
+    margin-right: 4%;
+    padding: 1rem 1rem 1rem 1rem;
+    
+  }
   .main-page time {
     font-size: 1.6rem;
     font-weight: 700;
@@ -418,6 +430,7 @@ main .location-main {
   .main-page .location-main {
     font-size: 1rem;
     margin-left: 2rem;
+    margin-top: 2rem
   }
 
   /* ===========summit================== */
@@ -434,13 +447,15 @@ main .location-main {
   .forum2 {
     width: 100%;
   }
-
+.sponsor-container{
+  width:90%
+}
   .sponsor-container h4 {
     font-size: 1.2rem;
   }
 
   .sponsor img {
-    width: 90%;
+    width: 80px;
   }
 }
 
@@ -461,8 +476,19 @@ main .location-main {
 
   /* ================= about page======================= */
   main .about-description {
-    background-color: white;
-    opacity: 0.7;
+  background-color: lightgrey;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  border: 3px solid #fff;
+  color: #272a31;
+  height: auto;
+  margin-top: 8%;
+  padding: 3rem 8rem 5rem 12rem;
+  opacity: 0.8;
+  background-color: white;
+  opacity: 0.7;
   }
 
   .sponsors {

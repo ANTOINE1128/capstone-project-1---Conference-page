@@ -49,7 +49,8 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 🚀 Live Demo(#live-demo)
-https://antoine1128.github.io/capstone/
+- [video demo link](https://www.loom.com/share/feaa9f0e68d24908a35f1fbcdf6a1c26)
+- [project demo link](https://github.com/ANTOINE1128/capstone-project-1---Conference-page/issues/2)
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -98,6 +99,22 @@ Give a ⭐️ if you like this project
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- I also want to give credit to Cindy Shin, the original author of the design.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How to make it mobile friendly?**
+
+  - Put a viewport tag in the header
+
+- **How to design the site?**
+
+  - Draw a mockup before start to code
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 📝 License <a name="license"></a>

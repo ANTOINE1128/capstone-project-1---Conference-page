@@ -29,28 +29,42 @@ const speakersArray = [
     name: 'ANDERAS S.<br>CONSTANTINIDES',
     title: 'Head of Messaging<br>& Marketing',
     image: 'image/speaker2.jpg',
-    about: 'morethan160',
+    about: 'Focusing on a common approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia. ',
 
   },
   {
     name: 'MARIA<br>PELIVANIDE',
     title: 'Director',
     image: 'image/Maria-speaker1.jpeg',
-    about: 'morethan160',
+    about: 'Focusing on a common approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.',
 
   },
   {
     name: 'FABRIZIO<br>SALANITRI',
     title: 'CEO',
     image: 'image/speaker3.jpg',
-    about: 'HORSIEN',
+    about: 'Focusing on a common approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.',
 
   },
   {
     name: 'SCARLETT<br>WOODFORD',
     title: 'Principal analyst',
     image: 'image/speaker4.jpg',
-    about: 'Juniper Research',
+    about: 'Focusing on a common approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.',
+
+  },
+  {
+    name: 'ANDERAS S.<br>CONSTANTINIDES',
+    title: 'Head of Messaging<br>& Marketing',
+    image: 'image/speaker2.jpg',
+    about: 'Focusing on a common approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia. ',
+
+  },
+  {
+    name: 'MARIA<br>PELIVANIDE',
+    title: 'Director',
+    image: 'image/Maria-speaker1.jpeg',
+    about: 'Focusing on a common approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.',
 
   },
 ];
@@ -60,7 +74,11 @@ function speakerCreate() {
     const speaker = speakersArray[i];
     const speakerHtml = `
       <div class="speakers-info">
-        <img src="${speaker.image}" alt="Business-messaging" />
+      
+      <div class ="chess-business">
+      <img class= "chess" src="image/bg-chessboard-icon.png" alt="chess">
+        <img class= "business" src="${speaker.image}" alt="Business-messaging" />
+        </div>
         <div class="details">
           <h4><strong>${speaker.name}</strong></h4>
           <p class="title">${speaker.title}</p>

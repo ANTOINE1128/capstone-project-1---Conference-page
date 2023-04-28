@@ -45,11 +45,12 @@ nav .top-nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 3rem;
 }
 
 .nav-container a {
   color: #fff;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 
 /* =============end-about-nav====== */
@@ -58,27 +59,29 @@ nav .top-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 36px;
 }
 
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 5px;
+
 }
 
 .nav-branding img {
   display: block;
-  width: 120px;
-  height: 48px;
+  width: 140px;
+  height: 50px;
   background-color: lightslategray;
-  opacity: 0.9;
+  margin-left: 60%;
 }
 
 .nav-link {
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: 0.7s ease;
+  margin-right: 2rem;
 }
 
 .nav-link:hover {
@@ -195,7 +198,7 @@ main .location-main {
 
 .program hr {
   border-bottom: 2px solid #f65112;
-  width: 15%;
+  width: 3%;
   margin: 0 auto 2rem;
 }
 
@@ -216,7 +219,9 @@ main .location-main {
 
   /* justify-content: center; */
 }
-
+.program-icon-title:hover{
+border: 2px solid lightgray;
+}
 .icon-title {
   display: flex;
   flex-direction: row;
@@ -278,7 +283,6 @@ main .location-main {
   color: #272a31;
   font-size: 1.5rem;
   text-align: center;
-  padding: 2rem 2rem;
 }
 
 body > section.speakers > div > div > div:nth-child(1) > div > h4 {
@@ -288,7 +292,7 @@ body > section.speakers > div > div > div:nth-child(1) > div > h4 {
 
 .speakers .hr1 {
   border-bottom: 2px solid #f65112;
-  width: 15%;
+  width: 3%;
   margin: 0 auto 2rem;
 }
 
@@ -299,22 +303,38 @@ body > section.speakers > div > div > div:nth-child(1) > div > h4 {
   width: 100%;
   padding-bottom: 2rem;
 }
-
+.details{
+  margin-left: 50px  ;
+}
 .speakers-info {
   display: flex;
   gap: 1rem;
   margin-bottom: 1.2rem;
+  position: relative;
+  flex-direction: row;
 }
-
-.speakers-info img {
-  width: 60%;
-  max-width: 13rem;
-  height: auto;
+.chess-business{
+  position: relative;
+  
+  width : 190px;
 }
+.speakers-info .business {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  z-index: 10;
+  left: 20px;
+  top: 20px;
 
+}
+.chess{
+  width: 100px;
+  height: 100px;
+ 
+}
 h4 .speakers-info {
   color: #272a33;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -350,17 +370,17 @@ h4 .speakers-info {
   justify-content: center;
 }
 
-h4 .sponsor-container {
-  font-size: 2.5rem;
+.sponsor-container h4 {
+  font-size: 2rem;
   font-weight: 400;
-  color: #fff;
+  color: #a19999;
   text-align: center;
   padding: 3rem 0 1.1rem;
 }
 
 .sponsor-container hr {
   border-bottom: 2px solid #f65112;
-  width: 15%;
+  width: 5%;
   margin: 0 auto 2rem;
 }
 
@@ -371,6 +391,7 @@ h4 .sponsor-container {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  background-blend-mode: multiply;
 }
 
 .sponsor img {
@@ -379,25 +400,27 @@ h4 .sponsor-container {
 
 /* ==============================footer section========================= */
 
+
+
 .footer-container {
   color: #272a33;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(221, 221, 221);
   display: flex;
-  gap: 5rem;
-  padding: 2rem 2rem 2rem 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-container h5 {
-  width: 45%;
-  font-size: 1.2rem;
-  font-weight: 900;
+  width: 25%;
+  font-size: 1rem;
+  font-weight: 800;
 }
 
 .footer-container p {
-  width: 45%;
-  font-size: 1.2rem;
-  font-weight: 900;
+  width: 30%;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 /* ======================mobile view ===================== */
@@ -406,6 +429,7 @@ h4 .sponsor-container {
 
   .navbar {
     background: url('image/mob-bg.png');
+
   }
 
   .top-nav {
@@ -454,8 +478,7 @@ h4 .sponsor-container {
   }
 
   .nav-branding {
-    position: absolute;
-    left: 40%;
+   display: none;
   }
 
   /* ==============main-page================= */
@@ -512,6 +535,18 @@ h4 .sponsor-container {
   .joinUs {
     padding: 1rem 1rem 1rem;
   }
+  h4 .speakers-info {
+    color: #272a33;
+    font-size: 0.4rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    width: 30%;
+    justify-content: center;
+  }
+
+.speakers-details{
+  padding: 0 2rem;
+}
 
   .sponsors {
     display: none;
@@ -524,6 +559,7 @@ h4 .sponsor-container {
   #footer {
     display: none;
   }
+
 }
 
 /* end of mobile version */
