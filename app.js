@@ -2,6 +2,7 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 const navLink = document.querySelectorAll('.nav-link');
+const moreBtn = document.querySelector('.see-more');
 
 // Define the mobileMenu() that toggles the 'active' class on the hamburger icon and the nav menu
 function mobileMenu() {
@@ -27,7 +28,7 @@ const speakers = document.querySelector('.speakers-details');
 const speakersArray = [
   {
     name: 'ANDERAS S.<br>CONSTANTINIDES',
-    title: 'Head of Messaging<br>& Marketing',
+    title: 'Head of morethan160',
     image: 'image/speaker2.jpg',
     about: 'Focusing on a common approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia. ',
 
@@ -69,15 +70,18 @@ const speakersArray = [
   },
 ];
 // ========FUNCTION TO CREATE THE SPEAKERS DETAILS=======
+let firstSpeakers = 2;
+
 function speakerCreate() {
-  for (let i = 0; i < speakersArray.length; i += 1) {
+  speakers.innerHTML = ''; // clear existing speaker HTML before rendering new speakers
+
+  for (let i = 0; i < firstSpeakers; i += 1) {
     const speaker = speakersArray[i];
     const speakerHtml = `
       <div class="speakers-info">
-      
-      <div class ="chess-business">
-      <img class= "chess" src="image/bg-chessboard-icon.png" alt="chess">
-        <img class= "business" src="${speaker.image}" alt="Business-messaging" />
+        <div class ="chess-business">
+          <img class="chess" src="image/bg-chessboard-icon.png" alt="chess">
+          <img class="business" src="${speaker.image}" alt="Business-messaging" />
         </div>
         <div class="details">
           <h4><strong>${speaker.name}</strong></h4>
@@ -89,6 +93,18 @@ function speakerCreate() {
     `;
     speakers.innerHTML += speakerHtml;
   }
+
+  // hide see more button
+  if (firstSpeakers >= speakersArray.length) {
+    moreBtn.style.display = 'none';
+  } else {
+    moreBtn.style.display = 'block';
+  }
 }
 
 speakerCreate();
+
+moreBtn.addEventListener('click', () => {
+  firstSpeakers += speakersArray.length - firstSpeakers;
+  speakerCreate();
+});

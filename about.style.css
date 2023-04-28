@@ -170,7 +170,7 @@ main .location-main {
 /* ==main about=== */
 .about-mainpage {
   display: grid;
-  grid-template-rows: repeat(4, 23%);
+  grid-template-rows: repeat(4, 20%);
   align-items: center;
   text-align: center;
 }
@@ -178,6 +178,7 @@ main .location-main {
 .email {
   justify-content: center;
   align-items: center;
+  margin-bottom: 20%;
 }
 
 /* ================ summit ====================== */
@@ -302,6 +303,7 @@ main .location-main {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  filter: grayscale(100%) contrast(30%);
 }
 
 .sponsor img {
@@ -317,13 +319,13 @@ main .location-main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 20vh;
+  height: 34vh;
+  gap: 20px;
 }
 
-.footer-container h5 {
-  width: 25%;
-  font-size: 1rem;
-  font-weight: 800;
+.footer-container .img-footer {
+  width: 15%;
+  background-color: #3e3e3e;
 }
 
 .footer-container p {

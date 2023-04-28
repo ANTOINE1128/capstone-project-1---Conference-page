@@ -302,7 +302,6 @@ body > section.speakers > div > div > div:nth-child(1) > div > h4 {
   grid-template-columns: 1fr;
   gap: 1rem;
   width: 100%;
-  padding-bottom: 2rem;
 }
 
 .details {
@@ -311,30 +310,28 @@ body > section.speakers > div > div > div:nth-child(1) > div > h4 {
 
 .speakers-info {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   margin-bottom: 1.2rem;
-  position: relative;
   flex-direction: row;
 }
 
 .chess-business {
   position: relative;
-  width: 190px;
+  width: 30%;
 }
 
 .speakers-info .business {
-  width: 120px;
-  height: 120px;
+  width: 90px;
   position: absolute;
   z-index: 10;
-  left: 20px;
-  top: 20px;
+  left: 1em;
+  top: 1em;
 }
 
-.chess {
+/* .chess {
   width: 100px;
   height: 100px;
-}
+} */
 
 h4 .speakers-info {
   color: #272a33;
@@ -365,6 +362,19 @@ h4 .speakers-info {
   line-height: 1.4;
 }
 
+.see-more {
+  display: block;
+  margin: 0 30px;
+  margin-bottom: 20px;
+  padding: 1rem 1rem 1rem 1rem;
+  border: 1px solid rgb(223, 216, 216);
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
+
 /* ==============================sponsors=============== */
 .sponsors {
   background: #272a31;
@@ -374,7 +384,7 @@ h4 .speakers-info {
   justify-content: center;
 }
 
-h4 .sponsor-container {
+.h4s {
   font-size: 2rem;
   font-weight: 400;
   color: #a19999;
@@ -395,7 +405,7 @@ h4 .sponsor-container {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  background-blend-mode: multiply;
+  filter: grayscale(100%) contrast(30%);
 }
 
 .sponsor img {
@@ -411,12 +421,15 @@ h4 .sponsor-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 4rem 4rem;
+  gap: 20px;
 }
 
-.footer-container h5 {
-  width: 25%;
+.footer-container .img-footer {
+  width: 30%;
   font-size: 1rem;
   font-weight: 800;
+  background-color: #3e3e3e;
 }
 
 .footer-container p {

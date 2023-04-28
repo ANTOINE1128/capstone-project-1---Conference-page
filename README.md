@@ -50,7 +50,7 @@
 
 ### 🚀 Live Demo(#live-demo)
 - [video demo link](https://www.loom.com/share/feaa9f0e68d24908a35f1fbcdf6a1c26)
-- [project demo link](https://github.com/ANTOINE1128/capstone-project-1---Conference-page/issues/2)
+- [project demo link](https://antoine1128.github.io/capstone-project-1---Conference-page/)
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
