@@ -49,7 +49,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 🚀 Live Demo(#live-demo)
-- [video demo link](https://www.loom.com/share/2389461e629442e9954c6b0b99d8b936)
+- [video demo link](https://www.loom.com/share/80d76bfb035c4814b2d4eace0e101484)
 - [project demo link](https://antoine1128.github.io/capstone-project-1---Conference-page/)
 ## 💻 Getting Started <a name="getting-started"></a>
 
