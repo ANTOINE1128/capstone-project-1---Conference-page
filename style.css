@@ -426,7 +426,7 @@ h4 .speakers-info {
 }
 
 .footer-container .img-footer {
-  width: 30%;
+  width: 100%;
   font-size: 1rem;
   font-weight: 800;
   background-color: #3e3e3e;
@@ -466,6 +466,10 @@ h4 .speakers-info {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  body.no-scroll {
+    overflow: hidden;
   }
 
   .nav-menu {

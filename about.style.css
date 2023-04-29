@@ -324,7 +324,7 @@ main .location-main {
 }
 
 .footer-container .img-footer {
-  width: 15%;
+  width: 80%;
   background-color: #3e3e3e;
 }
 
@@ -362,6 +362,10 @@ main .location-main {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  body.no-scroll {
+    overflow: hidden;
   }
 
   .nav-menu {
